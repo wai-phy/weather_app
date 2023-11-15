@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:ital,wght@0,200;0,800;1,300;1,500&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-glass {
+    /* From https://css.glass */
+    background: rgba(232, 89, 89, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(232, 89, 89, 0.3);
+    display: inline-block;
+    padding: 40px;
+
+}
+
+#app {
+    background: #a33b0b;
+    color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.search-box{
+    background: rgba(232, 89, 89, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(232, 89, 89, 0.3);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+}
+.search-box::placeholder{
+    color: #ffffff;
+    padding: 30px 10px;
+    font-size: 20px;
+}
+
+.location {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.bg-glass h1 {
+    font-size: 44px;
+}
+
+.bg-glass h1 span {
+    font-size: 50px;
+}
+
+.weather {
+    font-size: 24px;
+    margin: 10px 0px;
+}
