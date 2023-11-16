@@ -42,6 +42,7 @@
     padding: 10px 20px;
     width: 100%;
     height: 100%;
+    color: #ffffff;
 }
 .search-box::placeholder{
     color: #ffffff;

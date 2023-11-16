@@ -11,8 +11,10 @@
 <body>
     <section id="app">
         <div>
-            <input type="text" class="search-box" placeholder="Search Location">
-            <h1 class="location">Yangon</h1>
+            <form @Submit.prevent="getWeather()">
+             <input type="text" v-model="searchQuery" class="search-box" placeholder="Search Location">
+            </form>
+            <h1 class="location">{{searchQuery}}</h1>
             <h3>2023.11.15 Sunday</h3>
             <div class="bg-glass">
                 <h1>30 °<span>C</span></h1>
